@@ -5,6 +5,7 @@ import "../styles/global.css";
 
 export const App = () => {
   const [cards, setCards] = React.useState();
+  const [randomState, setRandomState] = React.useState();
 
   React.useEffect(() => {
     // vytvor pole s kartickami pouze jednou pri startu aplikace
